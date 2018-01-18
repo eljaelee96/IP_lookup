@@ -8,7 +8,11 @@ import socket
 import sys
 import io
 
-# WIP - add ping feature
+# WIP - add ping feature, XLSX integration, multithreading
+# Ideas to solve current bugs
+# -make sure front starts with http
+# -if string contains http then start substring until string startswith http
+# -if string does not contain http then append the host ip
 
 print("\n***   This script is for performing reverse-lookup & getting redirected URL   ***\n")
 print("\nNOTE: File will create 2 output file - 1 for redirected URL, 1 for reverse-lookup hostnames\n\n")
